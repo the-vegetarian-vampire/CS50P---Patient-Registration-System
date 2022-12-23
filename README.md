@@ -20,7 +20,11 @@ Main() is a choice menu which takes user input in the range of 1-5 and passes in
 
 (2) Search patient: takes user input for key 'name', opens DictReader to iterate over the CSV file and returns a printed match with the associated input value 'name', or 'no match found' if none was found.
 
-(3) Match blood-type: takes user input for key 'blood-type' within ["A+", "A-", "B+", "B-", "O+", "O-", "AB+", "AB-"], uses the emoji library to add an emoji vampire, then opens DictReader to iterate over the CSV file and returns all printed matches with the associated input value 'blood-type', or 'no match found' if no matches were found.
+<img width="144" alt="Screen Shot 2022-12-23 at 4 43 38 PM" src="https://user-images.githubusercontent.com/105305546/209407981-ab28f307-c776-42a3-a42e-8ee955cea962.png">
+
+(3) Match blood-type: takes user input for key 'blood-type' within ["A+", "A-", "B+", "B-", "O+", "O-", "AB+", "AB-"], uses the emoji library to add an emoji vampire, then opens DictReader to iterate over the CSV file and returns all matches with the associated input value 'blood-type', or 'no match found' if no matches were found.
+
+<img width="196" alt="Screen Shot 2022-12-23 at 4 45 59 PM" src="https://user-images.githubusercontent.com/105305546/209408133-b26ddc9f-5e78-42d6-a751-5be4c14aa312.png">
 
 (4) Update prognosis: takes user input for key 'name', opens DictReader to iterate over the CSV file and find the input. If the input matches a name within the CSV file, the program will prompt the user the 3 choices to choose from: good, poor, and critical, to update the prognosis. Per the user input, the program index's into the value's position and updates the value via csv.writer. If no initial match is found in the file, the program prints 'no match found' and returns to the choice menu.
 
