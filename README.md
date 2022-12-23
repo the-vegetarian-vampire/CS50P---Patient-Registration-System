@@ -13,9 +13,10 @@ Main() is a choice menu which takes user input in the range of 1-5 and passes in
 <img width="129" alt="Screen Shot 2022-12-23 at 4 36 49 PM" src="https://user-images.githubusercontent.com/105305546/209407602-925d37a0-5843-4882-976e-9e4e4c0be18b.png">
 
 
-(1) Register patient: via list of dictionaries, takes user input for keys ["name", "blood-type", "location", "prognosis"]. 'Name' uses .strip() and .capitalize() methods. 'Blood-type' prompts for a correct blood-type and uses the emoji library to add a vampire to the associated blood-type. 'Location' gives the user 3 choices to choose from: primary care, surgery, or discharged, and uses the emoji library to add a thermometer, clock, or person surfing to the associated location. 'Prognosis' gives the user 3 choices to choose from: good, poor, critical, and uses the emoji library to add a face with sunglasses, a thermometer, or bandages to the associated prognosis. Lastly, once all input has been received, the program opens a DictWriter and writes the input to the local CSV file and prints user input confirmation.
+(1) Register patient: via list of dictionaries, takes user input for keys ["name", "blood-type", "location", "prognosis"]. 'Name' uses .strip() and .capitalize() methods. 'Blood-type' prompts for a correct blood-type and uses the emoji library to add a vampire to the associated blood-type. 'Location' gives the user 3 choices to choose: primary care, surgery, or discharged, and uses the emoji library to add a thermometer, clock, or person surfing to the associated location. 'Prognosis' gives the user 3 choices to choose: good, poor, critical, and uses the emoji library to add a face with sunglasses, a thermometer, or bandages to the associated prognosis. Lastly, once all input has been received, the program opens a DictWriter and writes the input to the local CSV file and prints user input confirmation.
 
-For example: Patient Registered: NAME: Abraham lincoln BLOOD-TYPE: O+🧛 LOCATION: surgery 🕐 PROGNOSIS: critical 🤕.
+<img width="257" alt="Screen Shot 2022-12-23 at 4 38 59 PM" src="https://user-images.githubusercontent.com/105305546/209407739-e05c3f10-5ebb-4c6e-bea5-5b5fd3c8f238.png">
+
 
 (2) Search patient: takes user input for key 'name', opens DictReader to iterate over the CSV file and returns a printed match with the associated input value 'name', or 'no match found' if none was found.
 
