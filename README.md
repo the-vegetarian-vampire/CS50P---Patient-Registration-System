@@ -1,13 +1,23 @@
 # Patient Registration System
     Description:
-    This is a patient registration system, the database of which is a CSV file. The program imports: sys, csv, and emoji libraries and contains 5 functions outside of Main().
+    This is a patient registration system, the database of which is a CSV file. 
+    The program imports: sys, csv, and emoji libraries and contains 5 functions outside of Main().
     (1) Register patient
     (2) Search patient
     (3) Match blood-type
     (4) Update prognosis
     (5) Delete patient
 
-Main is a choice menu which takes user input in the range of 5 choices and passes a function dependent on user choice. If an incorrect integer or string is entered, main will reprompt the user for correct input. However, "Q", will exit the program via sys.exit.
+Main() is a choice menu which takes user input in the range of 1-5 and passes in a function dependent on user choice. If an incorrect integer or string is entered, main will reprompt the user for correct input. However, "Q", will exit the program via sys.exit.
+
+What would you like to do?
+(1) Register patient 
+(2) Search patient
+(3) Match blood-type
+(4) Update prognosis
+(5) Delete patient
+(Q) -- Sys Exit --
+Enter 1-5: 
 
 (1) Register patient: via list of dictionaries, takes user input for keys ["name", "blood-type", "location", "prognosis"]. 'Name' uses .strip() and .capitalize() methods. 'Blood-type' prompts for a correct blood-type and uses the emoji library to add a vampire to the associated blood-type. 'Location' gives the user 3 choices to choose from: primary care, surgery, or discharged, and uses the emoji library to add a thermometer, clock, or person surfing to the associated location. 'Prognosis' gives the user 3 choices to choose from: good, poor, critical, and uses the emoji library to add a face with sunglasses, a thermometer, or bandages to the associated prognosis. Lastly, once all input has been received, the program opens a DictWriter and writes the input to the local CSV file and prints user input confirmation.
 
