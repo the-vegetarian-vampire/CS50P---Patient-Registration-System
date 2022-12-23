@@ -14,11 +14,11 @@ def main():
                 register_patient(choice)
             elif choice == "2":
                 search_patient(choice)
-            elif choice == "4":
+            elif choice == "3":
                 match_blood(choice)
-            elif choice == "5":
+            elif choice == "4":
                 update_prog(choice)
-            elif choice == "6":
+            elif choice == "5":
                 delete_patient(choice)
             else:
                 print("\n--Invalid input--")
