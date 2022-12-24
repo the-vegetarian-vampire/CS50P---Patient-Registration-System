@@ -139,6 +139,7 @@ def update_prog(p): # Update prognosis
         reader=csv.writer(f)
         reader.writerows(list)
         f.close
+        print("Updated "f"{name}'s prognosis to {row[3]}")
 
 def delete_patient(p): # Delete patient:
     f=open(data, "r")
