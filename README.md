@@ -28,7 +28,7 @@ Main() is a choice menu which takes user input in the range of 1-5 and passes in
 
 (4) Update prognosis: takes user input for key 'name', opens DictReader to iterate over the CSV file and find the input. If the input matches a name within the CSV file, the program will prompt the user the 3 choices to choose from: good, poor, and critical, to update the prognosis. Per user input, the program index's into the key's position and updates the value via csv.writer. If no match is found in the file, the program prints 'no match found' and returns to the choice menu.
 
-<img width="290" alt="Screen Shot 2022-12-23 at 9 11 53 PM" src="https://user-images.githubusercontent.com/105305546/209417787-76416c65-2743-4477-9d04-5fee92d91fd7.png">
+<img width="278" alt="Screen Shot 2022-12-23 at 9 59 59 PM" src="https://user-images.githubusercontent.com/105305546/209418992-7e9ae15c-0604-4a30-b3b1-68797fa255e7.png">
 
 (5) Delete patient: takes user input for key 'name', opens DictReader to iterate over the CSV file and find the input. If the input matches a name within the CSV file, the program will prompt the user to confirm deletion via "Y/N". If the user confirms "Y", the program index's into the row and writes a new list without the input row deleting it from the CSV file.
 
