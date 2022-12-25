@@ -7,6 +7,8 @@
     (3) Match blood-type
     (4) Update prognosis
     (5) Delete patient
+    
+https://www.youtube.com/watch?v=Mxe5N0RC8K4
 
 Main() is a choice menu which takes user input in the range of 1-5 and passes in a function dependent on user choice. If an incorrect integer or string is entered, main will reprompt the user for correct input. However, "Q", will exit the program via sys.exit.
 
