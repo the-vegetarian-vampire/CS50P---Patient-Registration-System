@@ -1,4 +1,5 @@
 # Patient Registration System
+https://www.youtube.com/watch?v=Mxe5N0RC8K4
     Description:
     This is a patient registration system, the database of which is a CSV file. 
     The program imports: sys, csv, and emoji libraries and contains 5 functions outside of Main().
@@ -7,9 +8,6 @@
     (3) Match blood-type
     (4) Update prognosis
     (5) Delete patient
-    
-https://www.youtube.com/watch?v=Mxe5N0RC8K4
-
 Main() is a choice menu which takes user input in the range of 1-5 and passes in a function dependent on user choice. If an incorrect integer or string is entered, main will reprompt the user for correct input. However, "Q", will exit the program via sys.exit.
 
 <img width="129" alt="Screen Shot 2022-12-23 at 4 36 49 PM" src="https://user-images.githubusercontent.com/105305546/209407602-925d37a0-5843-4882-976e-9e4e4c0be18b.png">
