@@ -1,7 +1,7 @@
 # Patient Registration System
 My final project for Harvard's CS50P - Introduction to Programming with Python.
 
-`Youtube:` https://www.youtube.com/watch?v=Mxe5N0RC8K4
+📹 Youtube:` https://www.youtube.com/watch?v=Mxe5N0RC8K4
     
 This is a patient registration system, the database of which is a CSV file. The idea of this program is to model the `CRUD` acronym: `create`, `read`,              `update`, and `delete` from a database.
 
@@ -17,7 +17,8 @@ The program contains 5 functions outside of Main().
 5. (5) Delete patient
 
 ### Main() 
-is a choice menu which takes user input in the range of 1-5 and passes in a function dependent on user choice. If an incorrect integer or string is entered, main will reprompt the user for correct input. However, "Q", will exit the program via sys.exit.
+
+is a __choice__ __menu__ which takes user input in the range of 1-5 and passes in a function dependent on user choice. If an incorrect integer or string is entered, main will reprompt the user for correct input. However, `"Q"`, will exit the program via `sys.exit`.
 
 <img width="129" alt="Screen Shot 2022-12-23 at 4 36 49 PM" src="https://user-images.githubusercontent.com/105305546/209407602-925d37a0-5843-4882-976e-9e4e4c0be18b.png">
 
@@ -35,9 +36,9 @@ takes user input for key 'name', opens DictReader to iterate over the CSV file a
 
 <img width="144" alt="Screen Shot 2022-12-23 at 4 43 38 PM" src="https://user-images.githubusercontent.com/105305546/209407981-ab28f307-c776-42a3-a42e-8ee955cea962.png">
 
-### (3) Match Blood-Type
-
-Match blood-type: takes user input for key 'blood-type' within ["A+", "A-", "B+", "B-", "O+", "O-", "AB+", "AB-"], uses the emoji library to add an emoji vampire, then opens DictReader to iterate over the CSV file and returns all matches with the associated input value 'blood-type', or 'no match found' if no matches were found.
+### (3) Match Blood-Type:
+ 
+takes user input for key 'blood-type' within ["A+", "A-", "B+", "B-", "O+", "O-", "AB+", "AB-"], uses the emoji library to add an emoji vampire, then opens DictReader to iterate over the CSV file and returns all matches with the associated input value 'blood-type', or 'no match found' if no matches were found.
 
 <img width="193" alt="Screen Shot 2022-12-23 at 7 54 45 PM" src="https://user-images.githubusercontent.com/105305546/209416080-8ad91cf7-7fb3-42fe-9049-c063178aa1aa.png">
 
@@ -55,4 +56,6 @@ takes user input for key 'name', opens DictReader to iterate over the CSV file a
 
 Given more time I would improve the program: I believe the design would be better served creating 'patient' as a class object for its inheritence properties. As I learned more about CSV files, I learned updating and writing to an existing file may not be the best database; I would use a more interactive database like SQL, MongoDB, or Mongoose to store the data. Additionally, I would specify 'name' input using regular expressions, add a patient 'IN' and 'OUT' function using 'datetime, and add a random four digit patient ID number to each patient for flexibility with search criteria.
 
-Overall, I'm happy with what I've built, the program covers corner cases, achieves what I intended, and provides an excellent, easy to follow user experience.
+### Conclusion:
+
+Going forward, I've learned CSV files are not good for a large database system; I would use `MongoDB` or `SQL`. Futhermore, I would use Python's `OOP` and create `class` objects to simplify a patient's `inheretence` properties for example. Overall, I'm happy with what I've built, the program covers corner cases, achieves what I intended, and provides an excellent, easy to follow user experience.
