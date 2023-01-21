@@ -9,12 +9,12 @@ This is a patient registration system, the database of which is a CSV file. The 
 The program imports: `sys`, `csv`, and the `emoji` library and runs on `Python3`.
 
 ## Functionality:
-The program contains 5 functions outside of Main().
-(1) Register patient
-(2) Search patient
-(3) Match blood-type
-(4) Update prognosis
-(5) Delete patient
+The program contains 5 functions outside of Main().  
+1. (1) Register patient
+2. (2) Search patient
+3. (3) Match blood-type
+4. (4) Update prognosis
+5. (5) Delete patient
 
 ### Main() 
 is a choice menu which takes user input in the range of 1-5 and passes in a function dependent on user choice. If an incorrect integer or string is entered, main will reprompt the user for correct input. However, "Q", will exit the program via sys.exit.
