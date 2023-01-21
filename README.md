@@ -1,5 +1,6 @@
 # Patient Registration System
-    Description:
+
+    ### Description:
     This is a patient registration system, the database of which is a CSV file. 
     The program imports: sys, csv, and emoji libraries and contains 5 functions outside of Main().
     (1) Register patient
