@@ -1,7 +1,7 @@
 # Patient Registration System
 My final project for Harvard's CS50P - Introduction to Programming with Python.
 
-📹 Youtube:` https://www.youtube.com/watch?v=Mxe5N0RC8K4
+📹 `Youtube:` https://www.youtube.com/watch?v=Mxe5N0RC8K4
     
 This is a patient registration system, the database of which is a CSV file. The idea of this program is to model the `CRUD` acronym: `create`, `read`,              `update`, and `delete` from a database.
 
