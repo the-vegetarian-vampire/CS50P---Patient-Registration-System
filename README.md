@@ -1,7 +1,9 @@
 # Patient Registration System
 My final project for Harvard's CS50P - Introduction to Programming with Python.
+
+`YOUTUBE WALKTHROUGH:` https://www.youtube.com/watch?v=Mxe5N0RC8K4
     
-    This is a patient registration system, the database of which is a `CSV file`. The idea of this program is to follow `CRUD`, creating, reading,              updating, and deleting a database.
+    This is a patient registration system, the database of which is a CSV file. The idea of this program is to follow CRUD: creating, reading,              updating, and deleting a database.
     
     The program imports: `sys`, `csv`, and `emoji` libraries and contains 5 functions outside of Main().
     (1) Register patient
@@ -9,8 +11,7 @@ My final project for Harvard's CS50P - Introduction to Programming with Python.
     (3) Match blood-type
     (4) Update prognosis
     (5) Delete patient
-    
-`YOUTUBE WALKTHROUGH:` https://www.youtube.com/watch?v=Mxe5N0RC8K4
+   
 
 ### Main() 
 is a choice menu which takes user input in the range of 1-5 and passes in a function dependent on user choice. If an incorrect integer or string is entered, main will reprompt the user for correct input. However, "Q", will exit the program via sys.exit.
