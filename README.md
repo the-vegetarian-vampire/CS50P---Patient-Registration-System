@@ -38,13 +38,13 @@ takes user input for key 'name', opens DictReader to iterate over the CSV file a
 
 ### (3) Match Blood-Type:
  
-takes user input for key 'blood-type' within ["A+", "A-", "B+", "B-", "O+", "O-", "AB+", "AB-"], uses the emoji library to add an emoji vampire 🧛‍, then opens DictReader to iterate over the CSV file and returns all matches with the associated input value 'blood-type', or 'no match found' if no matches were found.
+takes user input for key 'blood-type' within `["A+", "A-", "B+", "B-", "O+", "O-", "AB+", "AB-"]`, uses the emoji library to add an emoji vampire `🧛‍`, then opens DictReader to iterate over the CSV file and returns all matches with the associated input value 'blood-type', or 'no match found' if no matches were found.
 
 <img width="193" alt="Screen Shot 2022-12-23 at 7 54 45 PM" src="https://user-images.githubusercontent.com/105305546/209416080-8ad91cf7-7fb3-42fe-9049-c063178aa1aa.png">
 
 ### (4) Update prognosis: 
 
-takes user input for key 'name', opens DictReader to iterate over the CSV file and find the input. If the input matches a name within the CSV file, the program will prompt the user the 3 choices to choose from: good 😎, poor 🤒, and critical 🤕, to update the prognosis. Per user input, the program index's into the key's position and updates the value via csv.writer. If no match is found in the file, the program prints 'no match found' and returns to the choice menu.
+takes user input for key 'name', opens DictReader to iterate over the CSV file and find the input. If the input matches a name within the CSV file, the program will prompt the user the 3 choices to choose from: `good 😎`, `poor 🤒`, and `critical 🤕`, to update the prognosis. Per user input, the program index's into the key's position and updates the value via csv.writer. If no match is found in the file, the program prints 'no match found' and returns to the choice menu.
 
 <img width="278" alt="Screen Shot 2022-12-23 at 9 59 59 PM" src="https://user-images.githubusercontent.com/105305546/209418992-7e9ae15c-0604-4a30-b3b1-68797fa255e7.png">
 
